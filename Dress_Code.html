@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Dress Code </title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Dress Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5fb50b33e1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/IBflag.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/Default.css">
+
+    <script>
+      $(function(){
+        $(".header").load("static/header.html");
+        $(".footer").load("footer.html");
+      });
+    </script>
   </head>
   <body>
-    Heres the Dress Code to follow
+
+    <div class="grid-container">
+
+      <header class="header" id="header">
+      </header>
+
+      <article class="main">
+        <h1>Dress Code of The Iron Brigade</h1>
+        <h2>Uniforms of the different Regiments:</h2>
+        <h5>2nd Wisconsin</h5>
+        <h5>6th Wisconsin</h5>
+        <h5>7th Wisconsin</h5>
+        <h5>24th Michigan</h5>
+        <h5>19th Indiana</h5>
+        <h5>The Krab Kingdom</h5>
+      </article>
+
+      <footer class="footer">
+      </footer>
+
+    </div>
+
   </body>
 </html>

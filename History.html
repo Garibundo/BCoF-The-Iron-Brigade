@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> History </title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Hitory of the Iron Brigade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5fb50b33e1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/IBflag.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/Default.css">
+
+    <script>
+      $(function(){
+        $(".header").load("static/header.html");
+        $(".footer").load("footer.html");
+      });
+    </script>
   </head>
   <body>
 
-    Documented history of the Iron Brigade
+    <div class="grid-container">
+
+      <header class="header" id="header">
+      </header>
+
+      <article class="main">
+        <h1>History The Iron Brigade</h1>
+      The Iron Brigade was one of the most celebrated military organizations of the American Civil War. Composed originally of the 2nd, 6th and 7th Wisconsin and 19th Indiana Volunteer Infantry regiments, it was reinforced after Antietam in October 1862 by the 24th Michigan Volunteer Infantry. Battery B of the 4th U.S. Artillery was also attached to the brigade for much of the war and volunteers from the infantry regiments were selected and trained to serve the battery. In the first weeks at Washington in 1861, the provisional brigade included the 5th Wisconsin and Governor Alexander Williams Randall of Wisconsin had hoped to form an all-Wisconsin unit. But when the 7th Wisconsin arrived at the war front in August 1861, the Army transferred the 5th Wisconsin from the brigade instead of the 19th Indiana. Of the four regiments remaining only the 2nd Wisconsin had arrived at Washington early enough to fight at First Bull Run.
+      </article>
+
+      <footer class="footer">
+      </footer>
+
+    </div>
 
   </body>
 </html>
