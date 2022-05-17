@@ -91,7 +91,7 @@ body{
   width: 100%;
   height: 100%;
   object-fit:contain;
-  grid-row: 1/3;
+  grid-row: 2/5;
   grid-column: 1/3;
   margin: 10px;
 
@@ -119,17 +119,17 @@ img{
 
 .Reg-info{
   display: grid;
-  grid-template-rows:100px 100px 100px;
+  grid-template-rows:60px 60px 60px 60px 60px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .Reg-title{
-  grid-row: 1/2;
+  grid-row: 1/3;
   grid-column: 3/span 6;
   text-align: center;
   font-size: 35px;
 }
-p{
-  grid-row: 2/4;
+.Reg-des{
+  grid-row: 3/6;
   grid-column: 3/8;
 }
