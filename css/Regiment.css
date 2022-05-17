@@ -122,3 +122,8 @@ img{
   color: #fff;
   text-decoration:none;
 }
+
+.Reg-info{
+  display: flex;
+  align-items: center;
+}
