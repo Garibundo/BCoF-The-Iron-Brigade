@@ -81,6 +81,11 @@ body{
   grid-row: 2 / 6;
 }
 
+.complement{
+  grid-column: 1 / span 6;
+  grid-row: 6 / 9;
+}
+
 .flag{
 
   width: 250px;
@@ -106,7 +111,7 @@ img{
 
 .footer{
   grid-column: 1 / span 6;
-  grid-row: 6 / 7;
+  grid-row: 9 / 10;
   display: flex;
   background-color: #000;
   padding: 10px;
