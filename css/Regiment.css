@@ -121,7 +121,6 @@ img{
   display: grid;
   grid-template-rows:30px 90px 60px 90px 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin: 10px;
 }
 
 .Reg-title{
@@ -133,4 +132,5 @@ img{
 .Reg-des{
   grid-row: 2/6;
   grid-column: 3/8;
+  margin: 10px;
 }
