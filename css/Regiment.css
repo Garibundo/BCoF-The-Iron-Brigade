@@ -130,15 +130,18 @@ img{
   font-size: 35px;
 }
 .Reg-des{
-  grid-row: 2/4;
+  grid-row: 2/3;
   grid-column: 3/8;
-  margin: 10px;
+  padding: 20px;
+  font-size: 16px;
 }
 .COname{
   grid-row: 4/5;
   grid-column: 3/5;
+  padding: 20px;
 }
 .COimg{
-  grid-row: 4/5;
+  grid-row: 3/5;
   grid-column:5/6;
+  object-fit:contain;
 }
