@@ -105,9 +105,12 @@ body{
 h5{
   font-size: 30px;
   color: #fff;
-  margin: 15px;
+  margin: auto;
 }
 
 .banner{
   object-fit: contain;
+  width: 10%;
+  height: auto;
+  margin: 10px 0 10px 50px;
 }
