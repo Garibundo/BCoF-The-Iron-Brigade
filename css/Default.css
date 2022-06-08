@@ -116,6 +116,11 @@ h2{
   font-weight: 200;
 }
 
-.a{
+ul.a{
   list-style-type: square;
+}
+
+.glor{
+  display: flex;
+  justify-content: center;
 }
