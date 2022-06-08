@@ -95,3 +95,19 @@ body{
   color: #fff;
   text-decoration:none;
 }
+
+.RegBan{
+  display: flex;
+  background-color: #000;
+  align-content: center;
+}
+
+h5{
+  font-size: 30px;
+  color: #fff;
+  margin: 15px;
+}
+
+.banner{
+  object-fit: contain;
+}
