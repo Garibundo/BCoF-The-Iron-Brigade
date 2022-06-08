@@ -121,6 +121,28 @@ ul.a{
 }
 
 .glor{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  grid-template-rows: 40px 400px 40px;
+}
+
+.brown{
+  object-fit: contain;
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+}
+
+.uptext{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.downtext{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
+  font-weight:bold;
 }
