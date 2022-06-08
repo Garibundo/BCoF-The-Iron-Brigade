@@ -130,7 +130,11 @@ img{
   font-size: 35px;
 }
 .Reg-des{
-  grid-row: 2/6;
+  grid-row: 2/4;
   grid-column: 3/8;
   margin: 10px;
+}
+.COname{
+  grid-row: 4/5;
+  grid-column: 3/5;
 }
