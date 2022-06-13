@@ -114,3 +114,9 @@ h5{
   height: auto;
   margin: 10px 0 10px 50px;
 }
+
+.Unif img{
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
