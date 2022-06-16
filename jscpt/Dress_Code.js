@@ -16,23 +16,32 @@ var slt = document.getElementById('SLt');
 var flt = document.getElementById('FLt');
 var cpt = document.getElementById('Cpt');
 
+var uni= document.getElementById('Uniform');
+
+
 b1.onclick = function() {
   document.getElementById('Title').innerHTML= "2nd Wisconsin";
+  document.getElementById('Uniform').className="2ndWI";
 };
 b2.onclick = function() {
   document.getElementById('Title').innerHTML= "14th Brooklyn";
+  document.getElementById('Uniform').className="14thNY";
 };
 b3.onclick = function() {
   document.getElementById('Title').innerHTML= "2nd U.S Sharpshooters";
+  document.getElementById('Uniform').className="2USS";
 };
 b4.onclick = function() {
   document.getElementById('Title').innerHTML= "19th Indiana";
+  document.getElementById('Uniform').className="19thIN";
 };
 b5.onclick = function() {
   document.getElementById('Title').innerHTML= "24th Michigan";
+  document.getElementById('Uniform').className="24thMI";
 };
 b6.onclick = function() {
   document.getElementById('Title').innerHTML= "1st Maryland Cavalry";
+  document.getElementById('Uniform').className="1stMDCav";
 //   if(rank-disp.ClassName == "rank-menu") {
 //     //change menu to troopers
 //
@@ -40,32 +49,69 @@ b6.onclick = function() {
 };
 b7.onclick = function() {
   document.getElementById('Title').innerHTML= "4th U.S Battery";
+  document.getElementById('Uniform').className="4thUS";
 };
 
 vol.onclick = function() {
-  document.getElementById('photo').src= "./img/Uniforms/14thNY/Vol.jpg";
+  if (uni.classList.contains('14thNY') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/14thNY/Vol.jpg";
+  }
+  else {
+    document.getElementById('photo').src= "";
+  }
+
 };
 
 pvt.onclick = function() {
-  document.getElementById('photo').src= "./img/Uniforms/14thNY/Vol.jpg";
+  if (uni.classList.contains('14thNY') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/14thNY/Vol.jpg";
+  }
+  else {
+    document.getElementById('photo').src= "";
+  }
 };
 
 vpvt.onclick = function() {
-  document.getElementById('photo').src= "./img/Uniforms/14thNY/Cpl.jpg";
+  if (uni.classList.contains('14thNY') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/14thNY/Cpl.jpg";
+  }
+  else {
+    document.getElementById('photo').src= "";
+  }
 };
 
 cpl.onclick = function() {
-  document.getElementById('photo').src= "./img/Uniforms/14thNY/Cpl.jpg";
+  if (uni.classList.contains('14thNY') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/14thNY/Cpl.jpg";
+  }
+  else {
+    document.getElementById('photo').src= "";
+  }
 };
 
 sgt.onclick = function() {
-  document.getElementById('photo').src= "./img/Uniforms/14thNY/Sgt.jpg";
+  if (uni.classList.contains('14thNY') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/14thNY/Sgt.jpg";
+  }
+  else {
+    document.getElementById('photo').src= "";
+  }
 };
 
 fsgt.onclick = function() {
-  document.getElementById('photo').src= "./img/Uniforms/14thNY/FSgt.jpg";
+  if (uni.classList.contains('14thNY') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/14thNY/FSgt.jpg";
+  }
+  else {
+    document.getElementById('photo').src= "";
+  }
 };
 
 slt.onclick = function() {
-  document.getElementById('photo').src= "./img/Uniforms/14thNY/SLt.jpg";
+  if (uni.classList.contains('14thNY') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/14thNY/SLt.jpg";
+  }
+  else {
+    document.getElementById('photo').src= "";
+  }
 };
