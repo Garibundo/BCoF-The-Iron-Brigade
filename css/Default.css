@@ -128,3 +128,11 @@ ol.b{
 iframe{
   margin: 10px 50vh;
 }
+
+p{
+  padding: 0px 20px;
+}
+
+h2{
+  padding: 20px;
+}
