@@ -135,15 +135,16 @@ h5{
   background-color: #CCC;
 }
 
-.Unif{
+#Uniform{
   grid-row: 1/10;
   grid-column: 2/3;
   object-fit: contain;
   margin: 0px 5px 0px 5px;
 }
 
-.Unif img{
+#Uniform img{
   width: 100%;
+  
 }
 
 .rank-name{
