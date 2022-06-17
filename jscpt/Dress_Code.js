@@ -52,22 +52,52 @@ b7.onclick = function() {
   document.getElementById('Uniform').className="4thUS";
 };
 
+
 vol.onclick = function() {
   if (uni.classList.contains('14thNY') == true) {
     document.getElementById('photo').src= "./img/Uniforms/14thNY/Vol.jpg";
   }
-  else {
-    document.getElementById('photo').src= "";
+  else if (uni.classList.contains('2ndWI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2ndWI/Vol.jpg";
   }
-
+  else if (uni.classList.contains('2USS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2USS/Vol.jpg";
+  }
+  else if (uni.classList.contains('19thIN') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/19thIN/Vol.jpg";
+  }
+  else if (uni.classList.contains('24thMI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/24thMI/Vol.jpg";
+  }
+  else if (uni.classList.contains('1stMDCav') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/1stMDCav/Vol.jpg";
+  }
+  else if (uni.classList.contains('4thUS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/4thUS/Vol.jpg";
+  }
 };
 
 pvt.onclick = function() {
   if (uni.classList.contains('14thNY') == true) {
     document.getElementById('photo').src= "./img/Uniforms/14thNY/Vol.jpg";
   }
-  else {
-    document.getElementById('photo').src= "";
+  else if (uni.classList.contains('2ndWI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2ndWI/Vol.jpg";
+  }
+  else if (uni.classList.contains('2USS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2USS/Vol.jpg";
+  }
+  else if (uni.classList.contains('19thIN') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/19thIN/Vol.jpg";
+  }
+  else if (uni.classList.contains('24thMI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/24thMI/Vol.jpg";
+  }
+  else if (uni.classList.contains('1stMDCav') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/1stMDCav/Vol.jpg";
+  }
+  else if (uni.classList.contains('4thUS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/4thUS/Vol.jpg";
   }
 };
 
@@ -75,8 +105,23 @@ vpvt.onclick = function() {
   if (uni.classList.contains('14thNY') == true) {
     document.getElementById('photo').src= "./img/Uniforms/14thNY/Cpl.jpg";
   }
-  else {
-    document.getElementById('photo').src= "";
+  else if (uni.classList.contains('2ndWI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2ndWI/Cpl.jpg";
+  }
+  else if (uni.classList.contains('2USS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2USS/Cpl.jpg";
+  }
+  else if (uni.classList.contains('19thIN') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/19thIN/Cpl.jpg";
+  }
+  else if (uni.classList.contains('24thMI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/24thMI/Cpl.jpg";
+  }
+  else if (uni.classList.contains('1stMDCav') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/1stMDCav/Cpl.jpg";
+  }
+  else if (uni.classList.contains('4thUS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/4thUS/Cpl.jpg";
   }
 };
 
@@ -84,8 +129,23 @@ cpl.onclick = function() {
   if (uni.classList.contains('14thNY') == true) {
     document.getElementById('photo').src= "./img/Uniforms/14thNY/Cpl.jpg";
   }
-  else {
-    document.getElementById('photo').src= "";
+  else if (uni.classList.contains('2ndWI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2ndWI/Cpl.jpg";
+  }
+  else if (uni.classList.contains('2USS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2USS/Cpl.jpg";
+  }
+  else if (uni.classList.contains('19thIN') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/19thIN/Cpl.jpg";
+  }
+  else if (uni.classList.contains('24thMI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/24thMI/Cpl.jpg";
+  }
+  else if (uni.classList.contains('1stMDCav') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/1stMDCav/Cpl.jpg";
+  }
+  else if (uni.classList.contains('4thUS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/4thUS/Cpl.jpg";
   }
 };
 
@@ -93,8 +153,23 @@ sgt.onclick = function() {
   if (uni.classList.contains('14thNY') == true) {
     document.getElementById('photo').src= "./img/Uniforms/14thNY/Sgt.jpg";
   }
-  else {
-    document.getElementById('photo').src= "";
+  else if (uni.classList.contains('2ndWI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2ndWI/Sgt.jpg";
+  }
+  else if (uni.classList.contains('2USS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2USS/Sgt.jpg";
+  }
+  else if (uni.classList.contains('19thIN') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/19thIN/Sgt.jpg";
+  }
+  else if (uni.classList.contains('24thMI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/24thMI/Sgt.jpg";
+  }
+  else if (uni.classList.contains('1stMDCav') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/1stMDCav/Sgt.jpg";
+  }
+  else if (uni.classList.contains('4thUS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/4thUS/Sgt.jpg";
   }
 };
 
@@ -102,8 +177,23 @@ fsgt.onclick = function() {
   if (uni.classList.contains('14thNY') == true) {
     document.getElementById('photo').src= "./img/Uniforms/14thNY/FSgt.jpg";
   }
-  else {
-    document.getElementById('photo').src= "";
+  else if (uni.classList.contains('2ndWI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2ndWI/FSgt.jpg";
+  }
+  else if (uni.classList.contains('2USS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2USS/FSgt.jpg";
+  }
+  else if (uni.classList.contains('19thIN') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/19thIN/FSgt.jpg";
+  }
+  else if (uni.classList.contains('24thMI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/24thMI/FSgt.jpg";
+  }
+  else if (uni.classList.contains('1stMDCav') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/1stMDCav/FSgt.jpg";
+  }
+  else if (uni.classList.contains('4thUS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/4thUS/FSgt.jpg";
   }
 };
 
@@ -111,7 +201,22 @@ slt.onclick = function() {
   if (uni.classList.contains('14thNY') == true) {
     document.getElementById('photo').src= "./img/Uniforms/14thNY/SLt.jpg";
   }
-  else {
-    document.getElementById('photo').src= "";
+  else if (uni.classList.contains('2ndWI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2ndWI/SLt.jpg";
+  }
+  else if (uni.classList.contains('2USS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/2USS/SLt.jpg";
+  }
+  else if (uni.classList.contains('19thIN') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/19thIN/SLt.jpg";
+  }
+  else if (uni.classList.contains('24thMI') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/24thMI/SLt.jpg";
+  }
+  else if (uni.classList.contains('1stMDCav') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/1stMDCav/SLt.jpg";
+  }
+  else if (uni.classList.contains('4thUS') == true) {
+    document.getElementById('photo').src= "./img/Uniforms/4thUS/SLt.jpg";
   }
 };
